@@ -1,0 +1,52 @@
+{
+    "name": "phpwvl/talk",
+    "description": "phpwvl talks",
+    "keywords": [
+        "phpug",
+        "talk",
+        "submit",
+        "request"
+    ],
+    "homepage": "http://php-wvl.be",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jachim Coudenys",
+            "email": "example@example.com",
+            "homepage": "http://blog.jachim.be/",
+            "role": "Developer"
+        },
+        {
+            "name": "Tom Van Herreweghe",
+            "email": "example@example.com",
+            "homepage": "http://miljar.github.io/",
+            "role": "Developer"
+        },
+        {
+            "name": "Ike Devolder",
+            "email": "ike.devolder@gmail.com",
+            "homepage": "http://www.herecura.eu",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phpwvl\\Talk\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Phpwvl\\Talk\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "scripts": {
+        "test": "phpunit"
+    }
+}
